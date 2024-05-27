@@ -1,0 +1,22 @@
+{
+  "name": "msal-browser-vue",
+  "private": true,
+  "type": "module",
+  "author": {
+    "name": "Jove Jonovski",
+    "email": "jovejonovski@gmail.com",
+    "url": "https://github.com/datyin"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.19.0",
+    "@azure/msal-browser": "^3.14.0",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "eslint": "8.57.0",
+    "eslint-plugin-format": "^0.1.1",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vue": "^3.4.27",
+    "vue-tsc": "^2.0.19"
+  }
+}
