@@ -41,5 +41,8 @@
   "peerDependencies": {
     "@azure/msal-browser": "^3.14.0",
     "vue": "^3.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
