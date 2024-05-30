@@ -30,12 +30,13 @@
     "dist"
   ],
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "eslint ./src",
+    "lint:fix": "eslint ./src --fix",
     "ts:check": "vue-tsc --noEmit",
     "ts:dts": "vue-tsc -p tsconfig.build.json",
     "dev": "vite",
-    "build": "pnpm run lint && pnpm run ts:check && vite build && pnpm run ts:dts"
+    "build": "pnpm run lint && pnpm run ts:check && vite build && pnpm run ts:dts",
+    "prepublish": "pnpm run build"
   },
   "peerDependencies": {
     "@azure/msal-browser": "^3.14.0",
